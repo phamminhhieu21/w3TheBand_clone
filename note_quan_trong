@@ -1,0 +1,5 @@
+Media Queries
+Để responsive ta chia ra làm 3 vùng để viết css
+    PC { >=1024px} 
+    TABLET {}
+    MOBILE {}

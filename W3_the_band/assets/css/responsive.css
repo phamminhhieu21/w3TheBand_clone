@@ -1,0 +1,114 @@
+/* Begin Responsive */
+
+/* PC */
+@media (max-width:  63.9375em) {
+    
+    
+}
+/* Tablet & Mobile */
+/* phần này dành cho cả tablet & mobile */
+@media (max-width: 1023px){
+    #nav .subnav a {
+       padding : 5px 12px ;
+      
+    }
+  .btn{
+      padding: 14px 16px;
+  }
+  .contact-form .form-control{
+      padding: 15px;
+      font-size:16px;
+  }
+  .contact-info{
+      line-height: 2;
+  }
+  
+  #footer .social-list a {
+      margin: 0 8px;
+  }
+  #footer .coppy-right a {
+    
+    display: inline-block;
+    padding: 12px 0;
+}
+.contact-mobile-btn{
+    font-size:16px;
+}
+}
+
+
+/* Tablet */
+@media (min-width :46.25em) and (max-width:  63.9375em) {
+    #content{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #footer .social-list{
+        font-size:48px
+    }
+    
+}
+/* Mobile */
+@media (max-width: 46.1875em) {
+#nav {
+     display: block;
+ }   
+#nav > li {
+    display: block;
+    /* sẽ nằm thành 1 list hàng dọc ,
+     thay vì là nằm hàng ngang khi dùng display:inline-block */
+ } 
+#nav > li:first-child{
+    display: inline-block;
+} 
+#nav .subnav{
+    position: initial;
+    /* set về giá trị mặc định của nó và bỏ đi absolute  */
+    background-color: #333;
+}
+#nav .subnav a {
+    color: #fff;
+    padding: 1px 41px;
+    line-height: 46px;
+ 
+}
+ #header{
+     overflow: hidden;
+ }
+ #header .mobile-menu-btn{
+     display: block;
+ }
+ #header .search-btn{
+     display: none;
+}
+#content .member-item {
+    margin-top: 30px;
+    width: 100%;
+}
+#content .img-member{
+    width: 60%;
+}
+#slider .text-content{
+    display:none;
+}
+.s-full-width,
+.mobile-column-full{
+    width: 100% !important;
+}
+.mobile-contact{
+    padding-bottom: -24px;
+}
+.contact-form{
+    padding-top: 32px;
+}
+.s-mt-8{
+    margin-top: 8px !important ;
+}
+.contact-info a{
+    color: blue;
+}
+#footer .social-list {
+    font-size: 27px;
+}
+}
+/* End Responsive */
